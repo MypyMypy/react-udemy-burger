@@ -1,0 +1,41 @@
+.Order {
+    width: 100%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.Ingredients {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.Ingredients .description {
+    margin: 0;
+}
+
+.Ingredients .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Ingredients .listItem {
+    flex: 1 1 auto;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.Ingredients .listItem span {
+    display: inline-block;
+}
+
+.Ingredients .listItem span::first-letter {
+    text-transform: uppercase;
+}
